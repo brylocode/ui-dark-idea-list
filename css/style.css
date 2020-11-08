@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #1B2342;
+}
+
+.idea-list {
+  background-color: #1B2342;
+  font-family: "Montserrat", sans-serif;
+  color: #CED4EC;
+  padding: 3.5rem;
+}
+
+.idea-list__title {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.idea-list__nav {
+  padding: 1rem;
+  background-color: #141936;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.idea-list__nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.idea-list__nav .nav-link {
+  display: block;
+  padding: 1.5rem 2.5rem;
+  font-size: 1.6rem;
+  border-radius: 10rem;
+  -webkit-transition: background-color .4s ease;
+  transition: background-color .4s ease;
+}
+
+.idea-list__nav .nav-link:hover {
+  background-color: #1B2342;
+}
+
+.idea-list__nav .nav-link--active {
+  background-color: #3A57FC;
+}
+
+.idea-list__container {
+  margin-bottom: 5rem;
+}
+
+.idea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1.3rem 2rem;
+  font-size: 1.6rem;
+  background-color: #141936;
+  margin-bottom: 1rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow .2s;
+  transition: -webkit-box-shadow .2s;
+  transition: box-shadow .2s;
+  transition: box-shadow .2s, -webkit-box-shadow .2s;
+}
+
+.idea:last-child {
+  margin-bottom: 0;
+}
+
+.idea:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.add-new-idea-btn {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  background-color: #3A57FC;
+  border: none;
+  color: #CED4EC;
+  max-width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.6rem 5rem;
+  border-radius: 3px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.add-new-idea-btn:hover {
+  background-color: #4964fc;
+}
+
+.add-new-idea-btn .icon {
+  height: 24px;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
