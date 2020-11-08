@@ -5,14 +5,13 @@ $font-color: #CED4EC;
 
 body {
     background-color: $primary-color;
-
 }
 
 .idea-list {
-    background-color: $primary-color;
+    padding: 3.5rem;
     font-family: $main-font;
     color: $font-color;
-    padding: 3.5rem;
+    background-color: $primary-color;
 }
 
 .idea-list__title {
@@ -24,10 +23,10 @@ body {
 
 .idea-list__nav {
     padding: 1rem;
-    background-color: $secondary-color;
-    border-radius: 5px;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    border-radius: 5px;
+    background-color: $secondary-color;
 
     .nav-list {
         display: flex;
@@ -38,8 +37,8 @@ body {
     .nav-link {
         display: block;
         padding: 1.5rem 2.5rem;
-        font-size: 1.6rem;
         border-radius: 10rem;
+        font-size: 1.6rem;
         transition: background-color .4s ease;
 
         &:hover {
@@ -52,25 +51,19 @@ body {
     }
 }
 
-.idea-list__main {
-    // margin-top: 5rem;
-
-}
-
 .idea-list__container {
     margin-bottom: 5rem;
 }
-
 
 .idea {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1.3rem 2rem;
-    font-size: 1.6rem;
-    background-color: $secondary-color;
     margin-bottom: 1rem;
     border-radius: 10rem;
+    font-size: 1.6rem;
+    background-color: $secondary-color;
     cursor: pointer;
     transition: box-shadow .2s;
 
@@ -80,22 +73,19 @@ body {
 
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-
     }
 }
 
-
 .add-new-idea-btn {
-    margin: 0 auto;
-    font-size: 1.6rem;
-    background-color: $warning-color;
-    border: none;
-    color: $font-color;
-    max-width: 30rem;
     display: flex;
     align-items: center;
     padding: 1.6rem 5rem;
+    border: none;
     border-radius: 3px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    background-color: $warning-color;
+    color: $font-color;
     transition: background-color .3s;
 
     &:hover {
@@ -106,7 +96,4 @@ body {
         height: 24px;
         margin-right: 1rem;
     }
-
-
-
 }
